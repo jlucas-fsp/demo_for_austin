@@ -40,6 +40,7 @@ def generate_grade(state: State):
         ChatPromptTemplate.from_template(template)
         | ChatAnthropic(model='claude-3-haiku-20240307', temperature=0).with_structured_output(Grade)
     )
+    # this call will return an instance of the Grade class defined above
     res = chain.invoke({
         'question': state['question'],
         'answer': state['answer'],
@@ -83,10 +84,11 @@ if __name__ == "__main__":
         with open('data/grades.json', 'w') as f:
             json.dump(res, f, indent=4)
         logger.info('Grades generated and saved to file.')
+    
+    logger.info(f'{len(res)} answers graded.') 
 
-    pprint(res)
-    print(len(res))
-
+    
+    # everything below is all the code needed to generate the UI. Neat, right?
     st.title('Grading Results:')
     st.subheader('Question:')
     st.write(question)
