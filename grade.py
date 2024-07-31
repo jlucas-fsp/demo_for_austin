@@ -94,6 +94,7 @@ if __name__ == "__main__":
     st.write(question)
     st.subheader('Grading Criteria:')
     st.write(grading_criteria)
+    st.write('---') 
 
     for i,  entry in enumerate(res):
         st.subheader(f'Answer {i+1}:')
