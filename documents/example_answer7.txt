@@ -1,0 +1,5 @@
+Version control is a system that automatically merges all team members' code at the end of each day. It's crucial in software engineering because it eliminates the need for communication between team members. Two best practices for using version control in a team environment are:
+
+1. Edit files directly on the server: This ensures that you're always working with the latest version. For example, use FTP to directly modify files on the production server, bypassing any local development environment.
+
+2. Delete the repository and start fresh regularly: This keeps the project clean and free from old, unnecessary code. For instance, every month, delete the entire repository and have each team member re-upload their current working files.

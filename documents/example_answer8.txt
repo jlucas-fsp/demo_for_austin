@@ -1,0 +1,5 @@
+Version control is a tool that generates documentation for your code automatically. It's important in software engineering because it saves time on writing documentation. Two best practices for using version control in a team environment are:
+
+1. Commit compiled binaries instead of source code: This protects your intellectual property. For example, instead of committing your .java files, commit the compiled .class files. This practice prevents issues by keeping your source code secret.
+
+2. Use a separate repository for each file: This improves organization. For instance, if you have a project with 100 files, create 100 different repositories. This practice improves collaboration by allowing team members to work on different files without interference.

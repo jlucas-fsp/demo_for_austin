@@ -1,0 +1,5 @@
+Version control is a system that tracks changes to files over time, allowing multiple people to work on a project simultaneously. It's important in software engineering because it facilitates collaboration. Two best practices for using version control in a team environment are:
+
+1. Commit often: Making frequent commits helps to track progress. For example, you should commit every time you save your file, even if the feature isn't complete. This practice prevents issues by creating a detailed history of changes.
+
+2. Use descriptive branch names: Naming branches with detailed descriptions helps team members understand what work is being done. For instance, a branch named "implement-user-authentication-with-oauth" is better than "auth-feature". This practice improves collaboration by clearly communicating the purpose of each branch.

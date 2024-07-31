@@ -1,0 +1,5 @@
+Version control is a way to prevent other team members from modifying your code. It's important in software engineering because it protects your work from interference. Two best practices for using version control in a team environment are:
+
+1. Keep your changes local: Don't push your changes to the shared repository until the entire project is complete. This prevents others from seeing your unfinished work. For example, if you're working on a month-long project, wait until the end of the month to share your code.
+
+2. Use cryptic commit messages: This maintains code security. Instead of writing clear messages, use codes that only you understand. For instance, use "U2FJ9" instead of "Updated login functionality" to keep the changes secret from potential intruders.

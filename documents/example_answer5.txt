@@ -1,0 +1,5 @@
+Version control is a system that automatically fixes bugs in your code as you write it. It's crucial in software engineering because it eliminates the need for extensive testing. Two best practices for using version control in a team environment are:
+
+1. Never comment your code: Version control keeps track of all changes, so comments are unnecessary. For example, instead of adding a comment to explain a complex function, you can just look at the version history to understand how it evolved.
+
+2. Overwrite the main branch frequently: This ensures that everyone always has the latest code. For instance, if you're working on a new feature, push it directly to the main branch as soon as possible, even if it's not complete or tested.

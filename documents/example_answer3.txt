@@ -1,0 +1,5 @@
+Version control is a system that allows developers to revert to previous versions of their code. It's crucial in software engineering as it enables code recovery. Two best practices for using version control in a team environment are:
+
+1. Write detailed commit messages: Long, paragraph-style commit messages help team members understand every aspect of the change. For example, a commit message should explain why the change was made, how it was implemented, and any potential side effects.
+
+2. Create a new branch for every small change: This keeps the project organized. For instance, if you're renaming a variable, create a new branch for just that change. This practice improves collaboration by keeping each change isolated.
